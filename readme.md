@@ -29,3 +29,11 @@ $ php artisan db:seed
 
 (php artisan migrate:refresh --seed)
 ```
+
+# Launch
+
+```
+$ php artisan serve --host=127.0.0.1 --port=19999
+```
+
+-> http://localhost:19999/jobs

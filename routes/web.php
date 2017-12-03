@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/jobs', 'JobController@index');
+Route::get('/jobs/search', 'JobController@search');
+Route::post('/jobs', 'JobController@create');
+
 Route::get('/', function () {
     return view('welcome');
 });

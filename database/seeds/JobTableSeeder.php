@@ -28,6 +28,7 @@ class JobTableSeeder extends Seeder
             // $table->string('address')->nullable();
             // $table->decimal('address_lat', 11, 8)->nullable();
             // $table->decimal('address_lng', 11, 8)->nullable();
+
             $job->save();
         }
     }
